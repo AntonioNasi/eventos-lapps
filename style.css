@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+}
+
+body h1, h2, h3, h4{
+    font-family: 'Anton', sans-serif;
+}
+
+body p, a, span{
+    font-family: 'Antonio', sans-serif;
+}
+
+.sec-unica{
+    background-color: brown;
+    height: 100vh;
+    border-top: solid 1px transparent;
+    padding: 0px 20px;
+}
+
+.sec-unica h1{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+@media screen and (max-width:600px){
+    .sec-unica h1{
+        line-height: 1.1;
+        font-size: 40px;
+    }
+}
+
+.sec-unica h2{
+    text-align: center;
+    margin: 0px 0px;
+    font-size: 30px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+@media screen and (max-width:600px){
+    .sec-unica h2{
+        font-size: 24px;
+    }
+}
+
+.sec-unica .cx-countdown{
+    display: flex;
+    max-width: 600px;
+    height: 150px;
+    margin: 50px auto 50px;
+    align-items: center;
+    justify-content: center;
+    border: solid 3px #ffffff;
+    border-radius: 40px 0px 40px 0px;
+}
+
+@media screen and (max-width:600px){
+    .sec-unica .cx-countdown{
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+.sec-unica .cx-countdown p{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+@media screen and (max-width:600px){
+    .sec-unica .cx-countdown p{
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+}
+
+.sec-unica a{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.479);
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.sec-unica .cx-img{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.sec-unica .cx-img img{
+    width: 100%;
+}
+
+.sec-unica .cx-img p{
+    text-align: center;
+    margin: -350px 0px;
+    color: #ffffff;
+}
